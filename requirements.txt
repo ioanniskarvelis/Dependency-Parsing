@@ -1,0 +1,7 @@
+numpy>=1.19,<2.0
+torch>=1.8
+torchvision>=0.9
+tqdm>=4.60
+nltk>=3.6
+matplotlib>=3.3
+# argparse is in stdlib for Python 3.10+, included in A's code compatibility

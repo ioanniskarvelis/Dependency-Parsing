@@ -1,0 +1,42 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.python-version
+.env
+.venv/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs & caches
+*.log
+*.out
+*.tmp
+*.cache/
+
+# Project artifacts
+A/results/
+B/results/
+A/plots/
+B/plots/
+
+# Data (keep gold and small samples tracked; ignore large externals)
+A/data/en-cw.txt
+# Uncomment to ignore local data copies
+# A/data/*.conll
+# B/data/*.conll
+
+# Checkpoints / weights
+**/model.weights
+**/parser.pt
